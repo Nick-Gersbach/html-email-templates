@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Table Exercise</title>
+    <style>
+      body {
+        background-color: gray;
+      }
+
+      table {
+        background-color: white;
+        width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        border: 1px solid black;
+        border-spacing: 0;
+      }
+
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Practice Table -->
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Location</th>
+      </tr>
+      <tr>
+        <td>Bill</td>
+        <td>52</td>
+        <td>Atlanta</td>
+      </tr>
+      <tr>
+        <td>Bob</td>
+        <td>23</td>
+        <td>Phoenix</td>
+      </tr>
+      <tr>
+        <td>Bart</td>
+        <td>44</td>
+        <td>New York</td>
+      </tr>
+    </table>
+   
+    <br>
+    <br>
+
+    <!-- Main Table Start -->
+    <table>
+        <tr>
+            <td style="padding: 20px;">
+                <strong>Name</strong>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 0;">
+                 <!-- Nested Table 2nd column Start -->
+                <table>
+                    <tr>   
+                        <td style="padding: 20px; width: 300px; background-color: green;">
+                            Bill
+                        </td>
+                        <td style="padding: 20px; width: 300px; background-color: red;">
+                            Bob
+                        </td>
+                    </tr>
+                    <tr>
+                        <table style="padding: 0;">
+                        </table>
+                             <!-- Nested Table 3rd column Start -->
+                            <table>
+                                <tr>   
+                                    <td style="padding: 20px; width: 200px; background-color: green;">
+                                        Bill
+                                    </td>
+                                    <td style="padding: 20px; width: 200px; background-color: red;">
+                                        Bob
+                                    </td>
+                                    <td style="padding: 20px; width: 200px; background-color: yellow;">
+                                        Bart
+                                    </td>
+                                </tr>
+                </table>
+                 <!-- Nested Table 2nd column Start -->
+                        </td>
+                    </tr>
+    </table>
+     <!-- Main Table End -->
+  </body>
+</html>
